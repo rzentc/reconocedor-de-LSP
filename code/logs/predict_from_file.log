@@ -1,0 +1,531 @@
+Using model 'knn'...
+Model deserialized from path '../data/generated/output/knn/model-serialized-knn.pkl'
+
+
+../data/images/test/H/001.jpg	H
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/H/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/R/001.jpg	R
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/R/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/F/001.jpg	F
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/F/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/V/001.jpg	V
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/V/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/P/001.jpg	P
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/P/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/L/001.jpg	L
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/L/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/A/001.jpg	A
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/A/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/U/001.jpg	U
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/U/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/E/001.jpg	E
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/E/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/Q/001.jpg	Q
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/Q/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/X/001.jpg	X
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/X/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/G/001.jpg	G
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/G/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/M/001.jpg	M
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/M/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/O/001.jpg	O
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/O/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/K/001.jpg	K
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/K/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/S/001.jpg	S
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/S/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/I/001.jpg	I
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/I/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/T/001.jpg	T
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/T/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/B/001.jpg	B
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/B/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/N/001.jpg	N
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/N/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/Y/001.jpg	Y
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/Y/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/C/001.jpg	C
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/C/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/D/001.jpg	D
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/D/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+
+
+../data/images/test/W/001.jpg	W
+Resizing image to 100...
+Done!
+Making background black...
+Done!
+Making skin white...
+Done!
+Removing arm...
+Done!
+Drawing contour around white color...
+Error while applying image transformation on image path '../data/images/test/W/001.jpg' with the following exception trace:
+Traceback (most recent call last):
+  File "./predict_from_file.py", line 32, in main
+    frame = apply_image_transformation(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 171, in apply_image_transformation
+    frame, contour_dimensions = draw_contours(frame)
+  File "/home/richard/reconocedor/Sign-Language-Recognition1/Sign-Language-Recognition/code/common/image_transformation.py", line 122, in draw_contours
+    frame, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+ValueError: too many values to unpack
+
+The program completed successfully !!
